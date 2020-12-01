@@ -5,12 +5,11 @@ do {
   if (input === null) {
     break;
   }
-  input = Number(input);
-  if (Number.isNaN(input)) {
+  if (Number.isNaN(parseInt(input))) {
     alert('Було написано не число, спробуйте ще раз');
     continue;
   }
-  total += input;
+  total += parseInt(input);
 } while (true);
 
 alert(`Загальна сума чисел дорівнює ${total}`);

@@ -7,7 +7,7 @@ if (password === ADMIN_PASSWORD) {
   message = 'Ласкаво просимо!';
 } else if (password === null) {
   message = 'Скасовано користувачем!';
-} else if (password !== ADMIN_PASSWORD) {
+} else {
   message = 'Доступ заборонений, невірний пароль!';
 }
 
