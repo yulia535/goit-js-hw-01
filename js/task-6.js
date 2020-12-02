@@ -10,6 +10,6 @@ do {
     continue;
   }
   total += parseInt(input);
-} while (true);
+} while (input !== null);
 
 alert(`Загальна сума чисел дорівнює ${total}`);
